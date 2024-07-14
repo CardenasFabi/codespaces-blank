@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fundamentos del Ingeniero Multimedia</title>
+    <style>
+        body {
+            background-color: black;
+            color: white;
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        h1, h2, h3 {
+            text-align: center;
+        }
+        .section {
+            margin-bottom: 40px;
+        }
+        .video-container {
+            text-align: center;
+        }
+        .video-container iframe {
+            width: 100%;
+            max-width: 600px;
+            height: 340px;
+        }
+        .timeline {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+        .timeline div {
+            margin: 10px 0;
+            padding: 10px;
+            border: 1px solid white;
+            width: 80%;
+        }
+        .gallery {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 10px;
+            justify-content: center;
+        }
+        .gallery img {
+            width: 200px;
+            height: 150px;
+            object-fit: cover;
+        }
+        .form-container {
+            text-align: center;
+        }
+        .form-container form {
+            display: inline-block;
+            text-align: left;
+        }
+        .form-container form input,
+        .form-container form textarea {
+            display: block;
+            width: 100%;
+            margin-bottom: 10px;
+            padding: 10px;
+            border: none;
+            border-radius: 5px;
+        }
+        .form-container form input[type="submit"] {
+            background-color: white;
+            color: black;
+            cursor: pointer;
+        }
+        .map-container {
+            text-align: center;
+        }
+        .map-container iframe {
+            width: 100%;
+            max-width: 600px;
+            height: 340px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="section" id="inicio">
+            <h1>Fundamentos del Ingeniero Multimedia</h1>
+            <p>Bienvenido a nuestro sitio web. Aquí encontrarás información sobre los fundamentos de la ingeniería multimedia.</p>
+        </div>
+        <div class="section" id="introduccion">
+            <h2>Introducción</h2>
+            <div class="video-container">
+                <iframe src="https://www.youtube.com/embed/ffxffWTBD14" frameborder="0" allowfullscreen></iframe>
+            </div>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus lacinia odio vitae vestibulum vestibulum.</p>
+        </div>
+        <div class="section" id="conceptos-clave">
+            <h2>Conceptos Clave</h2>
+            <div>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent vitae eros eget tellus tristique bibendum. Donec rutrum sed sem quis venenatis.</p>
+                <img src="https://i.pinimg.com/736x/d5/90/5d/d5905da6d17e0fa2d31f9582d16dc3a0.jpg" alt="Infografía">
+            </div>
+            <div>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent vitae eros eget tellus tristique bibendum. Donec rutrum sed sem quis venenatis.</p>
+                <img src="https://www.uao.edu.co/wp-content/uploads/2022/12/medium-shot-man-wearing-vr-glasses-745x419.jpg" alt="Infografía">
+            </div>
+        </div>
+        <div class="section" id="historia">
+            <h2>Historia de la Ingeniería Multimedia</h2>
+            <div class="timeline">
+                <div>Evento 1: Lorem ipsum dolor sit amet</div>
+                <div>Evento 2: Lorem ipsum dolor sit amet</div>
+                <div>Evento 3: Lorem ipsum dolor sit amet</div>
+            </div>
+        </div>
+        <div class="section" id="herramientas-software">
+            <h2>Herramientas y Software</h2>
+            <ul>
+                <li>Adobe Photoshop <img src="https://img.icons8.com/?size=100&id=13677&format=png&color=000000" alt="Photoshop"></li>
+                <li>Adobe Illustrator <img src="https://img.icons8.com/?size=100&id=13631&format=png&color=000000" alt="Illustrator"></li>
+                <li>Unity <img src="https://img.icons8.com/?size=100&id=55O6KKA9CyIA&format=png&color=000000" alt="Unity"></li>
+            </ul>
+        </div>
+        <div class="section" id="ejemplos-practicos">
+            <h2>Ejemplos Prácticos</h2>
+            <div class="gallery">
+                <img src="https://3dstudio.co/wp-content/uploads/2022/01/how-to-create-a-3d-model.jpg" alt="Ejemplo 1">
+                <img src="https://static.wixstatic.com/media/c2d311_c0c6444f4d7f46ba966c1ef5cb9e41d3~mv2.jpg/v1/fill/w_640,h_360,al_c,q_80,usm_0.66_1.00_0.01,enc_auto/c2d311_c0c6444f4d7f46ba966c1ef5cb9e41d3~mv2.jpg" alt="Ejemplo 2">
+                <img src="https://www.toulouselautrec.edu.pe/sites/default/files/inline-images/como-funciona-modelado-3d.jpg" alt="Ejemplo 3">
+                <img src="https://www.toulouselautrec.edu.pe/sites/default/files/inline-images/blender.jpg" alt="Ejemplo 4">
+            </div>
+        </div>
+        <div class="section" id="audio">
+            <h2>Audio Educativo</h2>
+            <audio controls>
+                <source src="https://codeskulptor-demos.commondatastorage.googleapis.com/GalaxyInvaders/theme_01.mp3" type="audio/mpeg">
+            </audio>
+        </div>
+        <div class="section" id="casos-de-estudio">
+            <h2>Casos de Estudio</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent vitae eros eget tellus tristique bibendum. Donec rutrum sed sem quis venenatis.</p>
+            <div class="video-container">
+                <iframe src="https://www.youtube.com/embed/0KuhHA_-CmE" frameborder="0" allowfullscreen></iframe>
+            </div>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent vitae eros eget tellus tristique bibendum. Donec rutrum sed sem quis venenatis.</p>
+        </div>
+        <div class="section" id="tutoriales">
+            <h2>Tutoriales</h2>
+            <div class="video-container">
+                <iframe src="https://www.youtube.com/embed/SU9CvRsECVQ" frameborder="0" allowfullscreen></iframe>
+            </div>
+            <p><a href="https://openaccess.uoc.edu/bitstream/10609/149886/2/multimedia_cast.pdf">Descargar documento</a></p>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent vitae eros eget tellus tristique bibendum. Donec rutrum sed sem quis venenatis.</p>
+        </div>
+        <div class="section" id="recursos-adicionales">
+            <h2>Recursos Adicionales</h2>
+            <ul>
+                <li><a href="https://rua.ua.es/dspace/handle/10045/99388">Artículo 1</a></li>
+                <li><a href="https://rua.ua.es/dspace/handle/10045/99388">Artículo 2</a></li>
+                <li><a href="https://rua.ua.es/dspace/handle/10045/99388">Libro 1</a></li>
+                <li><a href="https://rua.ua.es/dspace/handle/10045/99388">Curso en línea</a></li>
+            </ul>
+        </div>
+        <div class="section" id="contacto">
+            <h2>Contacto</h2>
+            <div class="form-container">
+                <form>
+                    <input type="text" placeholder="Nombre" required>
+                    <input type="email" placeholder="Email" required>
+                    <textarea placeholder="Mensaje" required></textarea>
+                    <input type="submit" value="Enviar">
+                </form>
+            </div>
+            <div class="map-container">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3151.8354345093745!2d144.9537353153173!3d-37.8162791797517!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6ad642af0f11fd81%3A0xf577d0b23a5c!2sFederation%20Square!5e0!3m2!1sen!2sau!4v1598880442338!5m2!1sen!2sau" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
